@@ -9,3 +9,8 @@ It has three steps.
 2. Assign names into clusters (to reduce the run time) and calculate similarity scores and keep names with high similarity scores.
 3. post-process the matched pairs, so that final pairs are the same entity.
 4. Give original names a identfier to indicate they are the same entity.
+
+Requirements:
+- POSIX compliant shells
+- python3.6+, pandas, fuzzuwuzzy, python-levenshtein
+- GNU parallel
